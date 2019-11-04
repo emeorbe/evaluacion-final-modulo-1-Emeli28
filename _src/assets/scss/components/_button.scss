@@ -1,0 +1,36 @@
+.button__main{
+    border: 3px $button-color solid;
+    background-color: $general-color;
+    width: 76px;
+    height: 45px;
+    border-radius: 30px;
+    color: $button-color;
+    font-weight: bold;
+
+    @media all and (min-width:760px){
+        width: 91px;
+        
+    }
+    @media all and (min-width:1200px){
+        width: 160px;
+    }
+
+    
+}
+.last__button{
+
+    background-color: $button-color;
+    width: 184px;
+    height: 45px;
+    color: $general-color;
+    border-radius: 30px;
+    font-weight: bold;
+
+    @media all and (min-width:760px){
+        width: 210px;
+    }
+    @media all and (min-width:1200px){
+        width: 255px;
+    }
+
+}
