@@ -17,6 +17,11 @@
 
     
 }
+.button__main:hover{
+    background-color: $button-color;
+    color: $general-color;
+    border: 3px $general-color solid;
+}
 .last__button{
 
     background-color: $button-color;
@@ -33,4 +38,9 @@
         width: 255px;
     }
 
+}
+.last__button:hover{
+    background-color: $general-color;
+    color: $button-color;
+    border: 3px $button-color solid;
 }

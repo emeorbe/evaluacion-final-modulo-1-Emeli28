@@ -6,24 +6,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
         position: absolute;
-        transform: translate(53px, -205px);
-
-        @media all and (min-width:760px){
-            position: absolute;
-            transform: translate(-408px, -145px);
-
-        @media all and (min-width:1200px){
-            position: absolute;
-            transform: translate(-408px, -145px);
+        transform: translate(-2px, -194px);
 
 
         }
 
-
-        }
-}
 
 .footer{
     height: 400px;
@@ -34,17 +22,24 @@
     justify-content: center;
     align-items: center;
 
-    &__container{
-    
+    .footer__container{
+        
+        width: 100%;
         margin: 0 auto;
+        padding-right:50px;
+        padding-left: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        
+    
 
       @media all and (min-width:760px) {
 
-          width: 60vh;
+          
           display: flex;
+          margin: 0 auto;
           flex-direction:  row-reverse;
           justify-content: space-between;
           
