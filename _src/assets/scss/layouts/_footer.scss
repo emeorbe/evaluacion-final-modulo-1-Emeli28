@@ -1,0 +1,45 @@
+.container__button{
+        width: 45px;
+        height: 45px;
+        background-color: $general-color;
+        border-radius: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.footer{
+    height: 300px;
+    background-color: #304268;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__list--first{
+        color: $general-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8px;
+
+        @media all and (min-width: 760px){
+            flex-direction: row;
+        }
+ 
+    }
+
+
+}
+
+.span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $general-color;
+
+}
+.heart{
+    color: $button-color;
+}

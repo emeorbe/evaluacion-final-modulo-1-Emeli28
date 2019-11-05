@@ -4,11 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/ico-menu.svg);
+    background: url(../images/ico-menu.svg) no-repeat center;
     background-color: #0271bc;
     background-size: 50%;
-    background-repeat: no-repeat;
-    align-items: center;
     position: fixed;
     z-index: 3;
 
