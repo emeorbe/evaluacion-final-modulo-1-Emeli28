@@ -6,15 +6,14 @@ background-size: cover;
 background-position: center;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
-padding-top: 35vh;
+
 
     &__title{
         display: flex;
         flex-direction: column;
         color: $general-color;
-        font-family: $general-font;
         font-size: 42px;
         margin: 0 auto;
         padding-bottom: 15px;
@@ -48,6 +47,7 @@ padding-top: 35vh;
     .hero__button{
         width: 45px;
         height: 45px;
+        margin-bottom: 30px;
         background-color: $general-color;
         border-radius: 90px;
         display: flex;

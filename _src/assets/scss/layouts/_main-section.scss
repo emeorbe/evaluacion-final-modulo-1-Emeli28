@@ -1,6 +1,7 @@
 .main__section{
+    max-width: 700px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding:  10px;
 }
 
 .section__text{
@@ -25,4 +26,48 @@
     font-size: 18px;
     line-height: 30px;
     
+}
+
+.main__articles{
+   
+    background-color: #eff9ff;
+    padding:  15px;
+    
+}
+.articles__title{
+    font-size: 24px;
+    @media all and (min-width:760px){
+        font-size: 24px;
+    }
+    @media all and (min-width:1200px){
+        font-size: 32px;
+    }
+}
+
+.section__articles{
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media all and (min-width:760px){
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__title{
+        font-size: 18px;
+        @media all and (min-width:760px){
+            font-size: 24px;
+        }
+
+    }
+    &__text{
+        font-size: 18px;
+        @media all and (min-width:760px){
+            font-size: 20px;
+        }
+    }
+
 }
